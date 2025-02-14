@@ -1,12 +1,12 @@
-# consul-export
-Export Consul data
+# nomad-export
+Export Nomad data
 
 ## Building
 
-`go build ./cmd/consul-export`
+`go build ./cmd/nomad-export`
 
 ## Exporting Data
 
-To export Consul data to a file called data.json run the following:
+To export Nomad data to a file called data.json run the following:
 
-`consul-export -output data.json`
+`nomad-export -output data.json`
